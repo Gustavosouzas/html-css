@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'font1';
+    src: url('font/idroid.otf') format('opentype');
+}
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, #37C777, #1A5C38);
+    color: white;
+    height: 150px;
+    margin-top: 0px;
+}
+header > h1{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 30px;
+
+}
+header > p{
+    text-align: center;
+}
+header > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 3px;
+}    
+    header > a:hover{
+    background-color: #2D9D66;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+main > h1{
+    font-family: 'font1', sans-serif;
+    color: #22623F;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+main > h2{
+    background-color: #BEF0D4;
+    font-family: 'font1', sans-serif;
+    color: #22623F;
+}
+main > p{
+    text-indent: 30px;
+}
+main > p > a{
+    color:#21a85e;
+    text-decoration: none;
+}
+main > article > p > a{
+    color:#21a85e;
+    text-decoration: none;
+}
+main > iframe{
+    border-bottom:20px solid #1A5C38;
+    border-top:20px solid #1A5C38;
+    border-right:40px solid #1A5C38;
+    border-left:40px solid #1A5C38;
+}
+main > p#quer-aprender-mais{
+    background-color: #2FA866;
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    text-indent: 0px;
+
+}
+main > article{
+    background-color: #C5EBD6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0px;
+    text-indent: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+footer > p{
+    color: white;
+    background-color: #1A5C38;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    margin-bottom:0px;
+}

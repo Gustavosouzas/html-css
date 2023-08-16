@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medias dinamicas</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/paisagem-m.png" type="image/png">
+        <img src="img/paisagem-g.png" alt="imagem">
+    </picture>
+    <h1>audios</h1>
+    <audio src="midia/High Noon - TrackTribe.mp3" controls loop autoplay></audio>
+    <h1>videos internos</h1>
+    <video src="midia/3.mp4 " poster="img/download.jpeg" width="560" controls></video>
+    <h1>videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NHFuAcpg78U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
