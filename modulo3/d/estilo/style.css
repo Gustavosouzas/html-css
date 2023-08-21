@@ -1,0 +1,50 @@
+@charset "UTF-8";
+*{
+    text-decoration: none;
+    margin: 0px;
+}
+body{
+
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4em;
+    font-weight: bolder;
+}
+
+nav a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main {
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+main article p.aa{
+    background: url(../img/background001.jpg)
+    center left no-repeat fixed;
+    background-size: cover;
+    padding-bottom: 100%;
+    margin: 0px;
+}
+
+footer{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    font-weight: bolder;
+    color: white;
+}
