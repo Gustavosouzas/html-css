@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+main{
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
